@@ -36,15 +36,3 @@ const getRectangleString = (width, height) => {
   result += bottom;
   return result;
 }
-
-// Экспорт функций для тестирования
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
-    concatenateStrings,
-    getStringLength,
-    getStringFromTemplate,
-    getChar,
-    removeFirstOccurrences,
-    getRectangleString
-  };
-}
